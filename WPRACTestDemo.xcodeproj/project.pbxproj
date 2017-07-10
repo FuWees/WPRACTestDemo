@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76ECF9491ED3F237001F74BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECF9481ED3F237001F74BA /* main.m */; };
+		76ECF94C1ED3F237001F74BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECF94B1ED3F237001F74BA /* AppDelegate.m */; };
+		76ECF94F1ED3F237001F74BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECF94E1ED3F237001F74BA /* ViewController.m */; };
+		76ECF9521ED3F237001F74BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECF9501ED3F237001F74BA /* Main.storyboard */; };
+		76ECF9541ED3F237001F74BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ECF9531ED3F237001F74BA /* Assets.xcassets */; };
+		76ECF9571ED3F237001F74BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECF9551ED3F237001F74BA /* LaunchScreen.storyboard */; };
+		76ECF9621ED3F237001F74BA /* WPRACTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECF9611ED3F237001F74BA /* WPRACTestDemoTests.m */; };
+		76ECF96D1ED3F237001F74BA /* WPRACTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECF96C1ED3F237001F74BA /* WPRACTestDemoUITests.m */; };
+		F3E638CFC2BACE8CB446E24E /* Pods_WPRACTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06D3BD81943E3AC4A52F477 /* Pods_WPRACTestDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76ECF95E1ED3F237001F74BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76ECF93C1ED3F236001F74BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76ECF9431ED3F237001F74BA;
+			remoteInfo = WPRACTestDemo;
+		};
+		76ECF9691ED3F237001F74BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76ECF93C1ED3F236001F74BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76ECF9431ED3F237001F74BA;
+			remoteInfo = WPRACTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		336A1CCBC63DCC0F036BDFC1 /* Pods-WPRACTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPRACTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPRACTestDemo/Pods-WPRACTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		76ECF9441ED3F237001F74BA /* WPRACTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPRACTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ECF9481ED3F237001F74BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76ECF94A1ED3F237001F74BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76ECF94B1ED3F237001F74BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76ECF94D1ED3F237001F74BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76ECF94E1ED3F237001F74BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76ECF9511ED3F237001F74BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76ECF9531ED3F237001F74BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76ECF9561ED3F237001F74BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76ECF9581ED3F237001F74BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76ECF95D1ED3F237001F74BA /* WPRACTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPRACTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ECF9611ED3F237001F74BA /* WPRACTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRACTestDemoTests.m; sourceTree = "<group>"; };
+		76ECF9631ED3F237001F74BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76ECF9681ED3F237001F74BA /* WPRACTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPRACTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ECF96C1ED3F237001F74BA /* WPRACTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRACTestDemoUITests.m; sourceTree = "<group>"; };
+		76ECF96E1ED3F237001F74BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B200C852E3BE5067428E2A26 /* Pods-WPRACTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPRACTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPRACTestDemo/Pods-WPRACTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D06D3BD81943E3AC4A52F477 /* Pods_WPRACTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPRACTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76ECF9411ED3F237001F74BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E638CFC2BACE8CB446E24E /* Pods_WPRACTestDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECF95A1ED3F237001F74BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECF9651ED3F237001F74BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76ECF93B1ED3F236001F74BA = {
+			isa = PBXGroup;
+			children = (
+				76ECF9461ED3F237001F74BA /* WPRACTestDemo */,
+				76ECF9601ED3F237001F74BA /* WPRACTestDemoTests */,
+				76ECF96B1ED3F237001F74BA /* WPRACTestDemoUITests */,
+				76ECF9451ED3F237001F74BA /* Products */,
+				EBADCC89460BF4D1807DDDB9 /* Pods */,
+				BCFE5EBD849AC4D6AAD0A7D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76ECF9451ED3F237001F74BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76ECF9441ED3F237001F74BA /* WPRACTestDemo.app */,
+				76ECF95D1ED3F237001F74BA /* WPRACTestDemoTests.xctest */,
+				76ECF9681ED3F237001F74BA /* WPRACTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76ECF9461ED3F237001F74BA /* WPRACTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				76ECF94A1ED3F237001F74BA /* AppDelegate.h */,
+				76ECF94B1ED3F237001F74BA /* AppDelegate.m */,
+				76ECF94D1ED3F237001F74BA /* ViewController.h */,
+				76ECF94E1ED3F237001F74BA /* ViewController.m */,
+				76ECF9501ED3F237001F74BA /* Main.storyboard */,
+				76ECF9531ED3F237001F74BA /* Assets.xcassets */,
+				76ECF9551ED3F237001F74BA /* LaunchScreen.storyboard */,
+				76ECF9581ED3F237001F74BA /* Info.plist */,
+				76ECF9471ED3F237001F74BA /* Supporting Files */,
+			);
+			path = WPRACTestDemo;
+			sourceTree = "<group>";
+		};
+		76ECF9471ED3F237001F74BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76ECF9481ED3F237001F74BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76ECF9601ED3F237001F74BA /* WPRACTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				76ECF9611ED3F237001F74BA /* WPRACTestDemoTests.m */,
+				76ECF9631ED3F237001F74BA /* Info.plist */,
+			);
+			path = WPRACTestDemoTests;
+			sourceTree = "<group>";
+		};
+		76ECF96B1ED3F237001F74BA /* WPRACTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76ECF96C1ED3F237001F74BA /* WPRACTestDemoUITests.m */,
+				76ECF96E1ED3F237001F74BA /* Info.plist */,
+			);
+			path = WPRACTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		BCFE5EBD849AC4D6AAD0A7D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D06D3BD81943E3AC4A52F477 /* Pods_WPRACTestDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBADCC89460BF4D1807DDDB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				336A1CCBC63DCC0F036BDFC1 /* Pods-WPRACTestDemo.debug.xcconfig */,
+				B200C852E3BE5067428E2A26 /* Pods-WPRACTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76ECF9431ED3F237001F74BA /* WPRACTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ECF9711ED3F237001F74BA /* Build configuration list for PBXNativeTarget "WPRACTestDemo" */;
+			buildPhases = (
+				26466722334C08BC4C9D50F7 /* [CP] Check Pods Manifest.lock */,
+				76ECF9401ED3F237001F74BA /* Sources */,
+				76ECF9411ED3F237001F74BA /* Frameworks */,
+				76ECF9421ED3F237001F74BA /* Resources */,
+				A65756D4E940035F4B466DFE /* [CP] Embed Pods Frameworks */,
+				33C304BC3EA9193C952AC07F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPRACTestDemo;
+			productName = WPRACTestDemo;
+			productReference = 76ECF9441ED3F237001F74BA /* WPRACTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76ECF95C1ED3F237001F74BA /* WPRACTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ECF9741ED3F237001F74BA /* Build configuration list for PBXNativeTarget "WPRACTestDemoTests" */;
+			buildPhases = (
+				76ECF9591ED3F237001F74BA /* Sources */,
+				76ECF95A1ED3F237001F74BA /* Frameworks */,
+				76ECF95B1ED3F237001F74BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76ECF95F1ED3F237001F74BA /* PBXTargetDependency */,
+			);
+			name = WPRACTestDemoTests;
+			productName = WPRACTestDemoTests;
+			productReference = 76ECF95D1ED3F237001F74BA /* WPRACTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76ECF9671ED3F237001F74BA /* WPRACTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ECF9771ED3F237001F74BA /* Build configuration list for PBXNativeTarget "WPRACTestDemoUITests" */;
+			buildPhases = (
+				76ECF9641ED3F237001F74BA /* Sources */,
+				76ECF9651ED3F237001F74BA /* Frameworks */,
+				76ECF9661ED3F237001F74BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76ECF96A1ED3F237001F74BA /* PBXTargetDependency */,
+			);
+			name = WPRACTestDemoUITests;
+			productName = WPRACTestDemoUITests;
+			productReference = 76ECF9681ED3F237001F74BA /* WPRACTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76ECF93C1ED3F236001F74BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wupeng;
+				TargetAttributes = {
+					76ECF9431ED3F237001F74BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 464QMA68M2;
+						ProvisioningStyle = Automatic;
+					};
+					76ECF95C1ED3F237001F74BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 464QMA68M2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76ECF9431ED3F237001F74BA;
+					};
+					76ECF9671ED3F237001F74BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 464QMA68M2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76ECF9431ED3F237001F74BA;
+					};
+				};
+			};
+			buildConfigurationList = 76ECF93F1ED3F236001F74BA /* Build configuration list for PBXProject "WPRACTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76ECF93B1ED3F236001F74BA;
+			productRefGroup = 76ECF9451ED3F237001F74BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76ECF9431ED3F237001F74BA /* WPRACTestDemo */,
+				76ECF95C1ED3F237001F74BA /* WPRACTestDemoTests */,
+				76ECF9671ED3F237001F74BA /* WPRACTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76ECF9421ED3F237001F74BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECF9571ED3F237001F74BA /* LaunchScreen.storyboard in Resources */,
+				76ECF9541ED3F237001F74BA /* Assets.xcassets in Resources */,
+				76ECF9521ED3F237001F74BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECF95B1ED3F237001F74BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECF9661ED3F237001F74BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26466722334C08BC4C9D50F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33C304BC3EA9193C952AC07F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WPRACTestDemo/Pods-WPRACTestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A65756D4E940035F4B466DFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WPRACTestDemo/Pods-WPRACTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76ECF9401ED3F237001F74BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECF94F1ED3F237001F74BA /* ViewController.m in Sources */,
+				76ECF94C1ED3F237001F74BA /* AppDelegate.m in Sources */,
+				76ECF9491ED3F237001F74BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECF9591ED3F237001F74BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECF9621ED3F237001F74BA /* WPRACTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECF9641ED3F237001F74BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECF96D1ED3F237001F74BA /* WPRACTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76ECF95F1ED3F237001F74BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76ECF9431ED3F237001F74BA /* WPRACTestDemo */;
+			targetProxy = 76ECF95E1ED3F237001F74BA /* PBXContainerItemProxy */;
+		};
+		76ECF96A1ED3F237001F74BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76ECF9431ED3F237001F74BA /* WPRACTestDemo */;
+			targetProxy = 76ECF9691ED3F237001F74BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76ECF9501ED3F237001F74BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ECF9511ED3F237001F74BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76ECF9551ED3F237001F74BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ECF9561ED3F237001F74BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76ECF96F1ED3F237001F74BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76ECF9701ED3F237001F74BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76ECF9721ED3F237001F74BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336A1CCBC63DCC0F036BDFC1 /* Pods-WPRACTestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPRACTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPRACTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76ECF9731ED3F237001F74BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B200C852E3BE5067428E2A26 /* Pods-WPRACTestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPRACTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPRACTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76ECF9751ED3F237001F74BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPRACTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPRACTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPRACTestDemo.app/WPRACTestDemo";
+			};
+			name = Debug;
+		};
+		76ECF9761ED3F237001F74BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPRACTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPRACTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPRACTestDemo.app/WPRACTestDemo";
+			};
+			name = Release;
+		};
+		76ECF9781ED3F237001F74BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPRACTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPRACTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPRACTestDemo;
+			};
+			name = Debug;
+		};
+		76ECF9791ED3F237001F74BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPRACTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPRACTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPRACTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76ECF93F1ED3F236001F74BA /* Build configuration list for PBXProject "WPRACTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECF96F1ED3F237001F74BA /* Debug */,
+				76ECF9701ED3F237001F74BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ECF9711ED3F237001F74BA /* Build configuration list for PBXNativeTarget "WPRACTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECF9721ED3F237001F74BA /* Debug */,
+				76ECF9731ED3F237001F74BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ECF9741ED3F237001F74BA /* Build configuration list for PBXNativeTarget "WPRACTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECF9751ED3F237001F74BA /* Debug */,
+				76ECF9761ED3F237001F74BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ECF9771ED3F237001F74BA /* Build configuration list for PBXNativeTarget "WPRACTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECF9781ED3F237001F74BA /* Debug */,
+				76ECF9791ED3F237001F74BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76ECF93C1ED3F236001F74BA /* Project object */;
+}
